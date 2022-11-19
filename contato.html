@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        h3{
+            display: flex;
+            justify-content: center;
+            background-color: aquamarine;
+            margin-right: 10px;
+            padding: 3px;
+        }
+        h4{
+            background-color: aquamarine;
+            margin-right: 10px;
+            padding: 3px;
+        }
+
+        iframe{
+            display: flex;
+            justify-items: center;
+            text-align: center;
+            justify-self: center;
+            margin-right: 10px;
+            padding-left: 250px;
+            padding-right: 250px;
+            justify-content: center;
+            background-color: aquamarine;
+        }
+
+        #s1{
+            background-color: aquamarine;
+            display: flex;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+
+        }
+
+    .form{
+        padding: 12px;
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <li id="hospital">Hospital Legal</li> <br>
+            <ul>
+                <li><a href="index.html"><strong>Página Principal</strong></li><br>
+                <li><a href="sobre.html"><strong>Sobre a clínica</strong></a></li><br>
+                <li><a href="atendimento.html"><strong>Horário de Atendimento</strong></a></li><br>
+                <li><a href="contato.html"><strong>Contato</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pictures/contato.jpg" height="150px" width="100%" alt="">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h3> Entre em contato para tirar suas dúvidas.</h3>
+
+                <h4>Telefone e Whats: (61) 99191-9191<br><br>
+                Endereço: Rodoviária Plano Piloto - Setor de Diversões Norte - Brasília, DF</h4>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.195078857374!2d-47.88515248479988!3d-15.793664489051661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ae1c26d3f1b%3A0xb063a94cdc919e9c!2sRodovi%C3%A1ria%20Plano%20Piloto%20-%20Setor%20de%20Divers%C3%B5es%20Norte%20-%20Bras%C3%ADlia%2C%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1668861490367!5m2!1spt-BR!2sbr" width="380" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                <strong id="s1">Entraremos em contato!</strong><br>
+
+                <div class="form">
+                    <br>            <form autocomplete="on">
+                                    <strong>Nome:  </strong> <input type="text"><br><br>
+                                     <strong>Email:</strong> <Input type="email"></Input><br><br>
+                                     <strong>Assunto:</strong> <input type="text"></input><br><br>
+                                    <strong>Mensagem:</strong> <textarea></textarea><br><br>
+                                    <button type="submit" >Enviar</button> <button type="reset">Limpar Dados</button>
+                    
+                                        
+                                    </form>
+                    
+                                </div>
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+    
+            <div class="footer">
+                Copyright © 2022 Hospital Legal Todos os direitos reservados.
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

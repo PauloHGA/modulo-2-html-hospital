@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+        .content{
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+    padding-right: 10px;
+}
+        table{
+
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px;
+
+        }
+
+        table #tr1 {
+        background-color: black;
+        color: white;
+        }
+        table #tr2 {       
+        background-color: aquamarine;
+        color: black;
+        }
+        table #tr3 {       
+        background-color: aquamarine;
+        color: black;
+        }
+        table #tr4 {       
+        background-color: aquamarine;
+        color: black;
+        }
+        table #tr5 {       
+        background-color: aquamarine;
+        color: black;
+        }
+        #table1{
+            margin-top: 10px;
+            padding-top: 118px;
+            padding-bottom: 200px;
+            background-color: rgb(65, 252, 190);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <li id="hospital">Hospital Legal</li> <br>
+            <ul>
+                <li><a href="index.html"><strong>Página Principal</strong></li><br>
+                <li><a href="sobre.html"><strong>Sobre a clínica</strong></a></li><br>
+                <li><a href="atendimento.html"><strong>Horário de Atendimento</strong></a></li><br>
+                <li><a href="contato.html"><strong>Contato</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pictures/atendemento.jpg" height="150px" width="100%" alt="">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <div id="table1">
+                <h1><u>Horário de Atendimento</u></h1>
+
+
+                    <table cellspacing="10" >
+                        
+                    <tr id="tr1">
+                        <td>Serviços</td>
+                        <td>Segunda a Sexta</td>
+                        <td>Sábados</td>
+                        <td>Feriados</td>
+                    </tr>
+                    <tr id="tr2">
+                        <Td>Clínica geral</Td>
+                        <td>8h - 19h</td>
+                        <td>8h - 14h</td>
+                        <td>8h - 14h</td>
+                    </tr>
+                    <tr id="tr3">
+                        <Td>Psicologia</Td>
+                        <td>8h - 19h</td>
+                        <td>8h - 14h</td>
+                        <td>8h - 14h</td>
+                    </tr>
+                    <tr id="tr4">
+                        <Td>Pediatria</Td>
+                        <td>8h - 19h</td>
+                        <td>8h - 14h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr id="tr5">
+                        <Td>Oftalmologia</Td>
+                        <td>8h - 19h</td>
+                        <td>8h - 14h</td>
+                        <td>-</td>
+                    </tr>
+                    </table>
+                </div>
+  
+
+
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                Copyright © 2022 Hospital Legal Todos os direitos reservados.
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
